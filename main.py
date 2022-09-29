@@ -315,7 +315,7 @@ async def on_message(message):
 @client.slash_command(name="support",
                       description="Get a link to the bots support server!")
 async def support(i: Interaction):
-    await i.response.send_message("*Coming Soon*")
+    await i.response.send_message("https://discord.gg/SsMXttzpay")
 
 
 @client.slash_command(name="invite", description="Get the bots invite link!")
